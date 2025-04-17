@@ -17,8 +17,8 @@ Microsoft Fabric Analytics, Data Pipeline, On-premises Data Gateway, SQL Server 
 
 ### Proposed Solution
 *	Adding a new User Data Function (UDF) activity into the existing Fabric data pipeline.
-•	Creating a new table in the Fabric SQL database specifically for the Sales department, and configure it with appropriate permissions.
-•	Inside the UDF, performing data manipulations such as table joins, data aggregations, and masking sensitive information like email addresses. Then, inserting the refined data into the newly created table for the Sales team.
+*	Creating a new table in the Fabric SQL database specifically for the Sales department, and configure it with appropriate permissions.
+*	Inside the UDF, performing data manipulations such as table joins, data aggregations, and masking sensitive information like email addresses. Then, inserting the refined data into the newly created table for the Sales team.
 
 ### Article
 https://medium.com/@zaw-may/using-fabric-user-data-functions-within-a-data-pipeline-a308769e8f32
